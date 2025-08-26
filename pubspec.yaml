@@ -1,0 +1,62 @@
+name: evoln
+description: A new Flutter project.
+
+publish_to: 'none'
+
+version: 1.3.9510
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cached_network_image: ^3.0.0
+  cloud_firestore: ^2.2.1
+  cupertino_icons: ^1.0.2
+  firebase_analytics: ^8.1.2
+  firebase_auth: ^1.4.1
+  firebase_core: ^1.2.1
+  firebase_messaging: ^10.0.2
+  flutter_svg: ^0.22.0
+  google_mobile_ads: ^0.13.1
+  google_sign_in: ^5.0.4
+  in_app_review: ^2.0.2
+  intl: ^0.17.0
+  provider: ^5.0.0
+  share: ^2.0.4
+  shared_preferences: ^2.0.6
+  sliding_up_panel: ^2.0.0+1
+  url_launcher: ^6.0.7
+  flutter_local_notifications: ^6.0.0
+  connectivity_wrapper: ^1.0.6
+  top_snackbar_flutter: ^1.0.0
+  animate_do: ^2.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_native_splash: null
+
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/icons/
+    - assets/images/
+    - assets/chips/
+    - assets/
+    - fonts/
+
+  fonts:
+    - family: Larken
+      fonts:
+        - asset: fonts/Larken-Regular.ttf
+        - asset: fonts/Larken-Medium.ttf
+        - asset: fonts/Larken-Bold.ttf
+        - asset: fonts/Larken-Light.ttf
+
+flutter_native_splash:
+  color: "#FFFFFF"
+  image: assets/logo.png
