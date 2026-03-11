@@ -41,7 +41,7 @@
             android:value="2" />
         <meta-data
             android:name="com.google.android.gms.ads.APPLICATION_ID"
-            android:value="ca-app-pub-9024560552531457~6062194900"/>
+            android:value="ca-app-pub-3940256099942544/9257395921"/>
     </application>
     <!-- Required permissions -->
     <uses-permission android:name="android.permission.INTERNET" />
